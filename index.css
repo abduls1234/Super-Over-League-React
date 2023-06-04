@@ -1,0 +1,39 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.super-over-league-bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.super-over-league-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 800;
+  color: #f8fafc;
+}
+.team-image {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .super-over-league-bg-container {
+    max-width: 1100px;
+  }
+  .super-over-league-heading {
+    font-size: 60px;
+  }
+  .team-image {
+    height: 300px;
+    width: 300px;
+  }
+}
